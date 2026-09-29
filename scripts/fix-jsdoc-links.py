@@ -6,7 +6,7 @@ fumadocs because:
 
 1. Links include the .md/.mdx extension, but fumadocs strips it from page URLs.
 2. For index.mdx pages, the fumadocs URL has no trailing slash (e.g.
-   /jsdoc/pixi-vn/vite-listener), so the browser resolves relative links one
+   /pixi-vn/vite-listener), so the browser resolves relative links one
    level too high — missing the current-directory segment in the path.
 
 This script converts every relative .md/.mdx link to an absolute fumadocs path,
@@ -19,13 +19,13 @@ import re
 # Map each jsdoc submodule directory (relative to the repo root) to its
 # fumadocs base URL.
 MODULES = {
-    "content/pixi-vn": "/jsdoc/pixi-vn",
-    "content/pixi-vn-json": "/jsdoc/pixi-vn-json",
-    "content/pixi-vn-ink": "/jsdoc/pixi-vn-ink",
-    "content/nqtr": "/jsdoc/nqtr",
-    "content/pixi-vn-spine": "/jsdoc/pixi-vn-spine",
-    "content/pixi-vn-live2d": "/jsdoc/pixi-vn-live2d",
-    "content/pixi-vn-ai": "/jsdoc/pixi-vn-ai",
+    "content/pixi-vn": "/pixi-vn",
+    "content/pixi-vn-json": "/pixi-vn-json",
+    "content/pixi-vn-ink": "/pixi-vn-ink",
+    "content/nqtr": "/nqtr",
+    "content/pixi-vn-spine": "/pixi-vn-spine",
+    "content/pixi-vn-live2d": "/pixi-vn-live2d",
+    "content/pixi-vn-ai": "/pixi-vn-ai",
 }
 
 LINK_RE = re.compile(r"\[([^\]]*)\]\(([^)]+)\)")

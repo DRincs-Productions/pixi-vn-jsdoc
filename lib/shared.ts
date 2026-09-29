@@ -4,13 +4,13 @@ import light from "@shikijs/themes/github-light";
 import type { RehypeCodeOptions } from "fumadocs-core/mdx-plugins";
 
 export const appName = "Pixi’VN";
-export const jsdocPixiVnRoute = "/jsdoc/pixi-vn";
-export const jsdocPixiVnJsonRoute = "/jsdoc/pixi-vn-json";
-export const jsdocPixiVnInkRoute = "/jsdoc/pixi-vn-ink";
-export const jsdocNqtrRoute = "/jsdoc/nqtr";
-export const jsdocPixiVnSpineRoute = "/jsdoc/pixi-vn-spine";
-export const jsdocPixiVnLive2dRoute = "/jsdoc/pixi-vn-live2d";
-export const jsdocPixiVnAiRoute = "/jsdoc/pixi-vn-ai";
+export const jsdocPixiVnRoute = "/pixi-vn";
+export const jsdocPixiVnJsonRoute = "/pixi-vn-json";
+export const jsdocPixiVnInkRoute = "/pixi-vn-ink";
+export const jsdocNqtrRoute = "/nqtr";
+export const jsdocPixiVnSpineRoute = "/pixi-vn-spine";
+export const jsdocPixiVnLive2dRoute = "/pixi-vn-live2d";
+export const jsdocPixiVnAiRoute = "/pixi-vn-ai";
 export const docsContentRoute = "/llms.mdx/docs";
 
 // fill this with your actual GitHub info, for example:

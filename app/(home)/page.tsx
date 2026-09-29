@@ -4,37 +4,37 @@ const sections = [
     {
         title: "@drinc/pixi-vn",
         description: "Core visual novel engine API reference.",
-        url: "/jsdoc/pixi-vn",
+        url: "/pixi-vn",
     },
     {
         title: "@drinc/pixi-vn-json",
         description: "JSON-based narrative format API reference.",
-        url: "/jsdoc/pixi-vn-json",
+        url: "/pixi-vn-json",
     },
     {
         title: "@drinc/pixi-vn-ink",
         description: "ink narration integration API reference.",
-        url: "/jsdoc/pixi-vn-ink",
+        url: "/pixi-vn-ink",
     },
     {
         title: "@drinc/nqtr",
         description: "Navigation Quest Time Routine (NQTR) API reference.",
-        url: "/jsdoc/nqtr",
+        url: "/nqtr",
     },
     {
         title: "@drinc/pixi-vn-spine",
         description: "Spine 2D integration API reference.",
-        url: "/jsdoc/pixi-vn-spine",
+        url: "/pixi-vn-spine",
     },
     {
         title: "@drinc/pixi-vn-live2d",
         description: "Live2D integration API reference.",
-        url: "/jsdoc/pixi-vn-live2d",
+        url: "/pixi-vn-live2d",
     },
     {
         title: "@drinc/pixi-vn-ai",
         description: "AI-generated content helpers API reference.",
-        url: "/jsdoc/pixi-vn-ai",
+        url: "/pixi-vn-ai",
     },
 ];
 

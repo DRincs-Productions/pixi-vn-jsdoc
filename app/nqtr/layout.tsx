@@ -1,9 +1,9 @@
 import { sidebar } from "@/components/docs-layout-props";
 import { baseOptions } from "@/lib/layout.shared";
-import { jsdocPixiVnSource } from "@/lib/source";
+import { jsdocNqtrSource } from "@/lib/source";
 import { DocsLayout } from "fumadocs-ui/layouts/docs";
 import type { ReactNode } from "react";
-import LayoutProvider from "../../layout.provider";
+import LayoutProvider from "../layout.provider";
 
 export default async function Layout({ children }: { children: ReactNode }) {
     const sidebarVar = await sidebar();
@@ -11,7 +11,7 @@ export default async function Layout({ children }: { children: ReactNode }) {
         <LayoutProvider>
             <DocsLayout
                 sidebar={sidebarVar}
-                tree={jsdocPixiVnSource.pageTree}
+                tree={jsdocNqtrSource.pageTree}
                 {...baseOptions("docs")}
             >
                 {children}
