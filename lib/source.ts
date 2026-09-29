@@ -73,7 +73,7 @@ export function getJsdocPageMarkdownUrl(
         | "pixi-vn-ai",
 ) {
     const segments = [...page.slugs, "content.md"];
-    const url = `${docsContentRoute}/jsdoc/${lib}/${segments.join("/")}`;
+    const url = `${docsContentRoute}/${lib}/${segments.join("/")}`;
 
     return {
         segments,
