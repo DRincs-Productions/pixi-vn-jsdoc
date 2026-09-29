@@ -14,13 +14,13 @@ from html import unescape
 from pathlib import Path
 
 MODULES = (
-    "content/jsdoc/pixi-vn",
-    "content/jsdoc/pixi-vn-json",
-    "content/jsdoc/pixi-vn-ink",
-    "content/jsdoc/nqtr",
-    "content/jsdoc/pixi-vn-spine",
-    "content/jsdoc/pixi-vn-live2d",
-    "content/jsdoc/pixi-vn-ai",
+    "content/pixi-vn",
+    "content/pixi-vn-json",
+    "content/pixi-vn-ink",
+    "content/nqtr",
+    "content/pixi-vn-spine",
+    "content/pixi-vn-live2d",
+    "content/pixi-vn-ai",
 )
 
 # TypeDoc emits standard triple-backtick fences, so splitting on them keeps

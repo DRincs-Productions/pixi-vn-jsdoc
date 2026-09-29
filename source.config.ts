@@ -26,7 +26,7 @@ function createDocsCollection(
 export default defineConfig({});
 
 export const jsdocPixiVnDocs = createDocsCollection(
-    "content/jsdoc/pixi-vn",
+    "content/pixi-vn",
     applyMdxPreset({
         rehypeCodeOptions: lightRehypeCodeOptions,
         remarkCodeTabOptions: {
@@ -36,7 +36,7 @@ export const jsdocPixiVnDocs = createDocsCollection(
 );
 
 export const jsdocPixiVnJsonDocs = createDocsCollection(
-    "content/jsdoc/pixi-vn-json",
+    "content/pixi-vn-json",
     applyMdxPreset({
         rehypeCodeOptions: lightRehypeCodeOptions,
         remarkCodeTabOptions: {
@@ -47,7 +47,7 @@ export const jsdocPixiVnJsonDocs = createDocsCollection(
 );
 
 export const jsdocPixiVnInkDocs = createDocsCollection(
-    "content/jsdoc/pixi-vn-ink",
+    "content/pixi-vn-ink",
     applyMdxPreset({
         rehypeCodeOptions: fullRehypeCodeOptions,
         remarkCodeTabOptions: {
@@ -57,7 +57,7 @@ export const jsdocPixiVnInkDocs = createDocsCollection(
 );
 
 export const jsdocNqtrDocs = createDocsCollection(
-    "content/jsdoc/nqtr",
+    "content/nqtr",
     applyMdxPreset({
         rehypeCodeOptions: fullRehypeCodeOptions,
         remarkCodeTabOptions: {
@@ -67,7 +67,7 @@ export const jsdocNqtrDocs = createDocsCollection(
 );
 
 export const jsdocPixiVnSpineDocs = createDocsCollection(
-    "content/jsdoc/pixi-vn-spine",
+    "content/pixi-vn-spine",
     applyMdxPreset({
         rehypeCodeOptions: fullRehypeCodeOptions,
         remarkCodeTabOptions: {
@@ -77,7 +77,7 @@ export const jsdocPixiVnSpineDocs = createDocsCollection(
 );
 
 export const jsdocPixiVnLive2dDocs = createDocsCollection(
-    "content/jsdoc/pixi-vn-live2d",
+    "content/pixi-vn-live2d",
     applyMdxPreset({
         rehypeCodeOptions: fullRehypeCodeOptions,
         remarkCodeTabOptions: {
@@ -87,7 +87,7 @@ export const jsdocPixiVnLive2dDocs = createDocsCollection(
 );
 
 export const jsdocPixiVnAiDocs = createDocsCollection(
-    "content/jsdoc/pixi-vn-ai",
+    "content/pixi-vn-ai",
     applyMdxPreset({
         rehypeCodeOptions: fullRehypeCodeOptions,
         remarkCodeTabOptions: {

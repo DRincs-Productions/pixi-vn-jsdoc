@@ -1,28 +1,28 @@
-[submodule "content/jsdoc/pixi-vn"]
-	path = content/jsdoc/pixi-vn
+[submodule "content/pixi-vn"]
+	path = content/pixi-vn
 	url = https://github.com/DRincs-Productions/pixi-vn.wiki.git
 	branch = master
-[submodule "content/jsdoc/pixi-vn-json"]
-	path = content/jsdoc/pixi-vn-json
+[submodule "content/pixi-vn-json"]
+	path = content/pixi-vn-json
 	url = https://github.com/DRincs-Productions/pixi-vn-json.wiki.git
 	branch = master
-[submodule "content/jsdoc/pixi-vn-ink"]
-	path = content/jsdoc/pixi-vn-ink
+[submodule "content/pixi-vn-ink"]
+	path = content/pixi-vn-ink
 	url = https://github.com/DRincs-Productions/pixi-vn-ink.wiki.git
 	branch = master
-[submodule "content/jsdoc/nqtr"]
-	path = content/jsdoc/nqtr
+[submodule "content/nqtr"]
+	path = content/nqtr
 	url = https://github.com/DRincs-Productions/nqtr.wiki.git
 	branch = master
-[submodule "content/jsdoc/pixi-vn-spine"]
-	path = content/jsdoc/pixi-vn-spine
+[submodule "content/pixi-vn-spine"]
+	path = content/pixi-vn-spine
 	url = https://github.com/DRincs-Productions/pixi-vn-spine.wiki.git
 	branch = master
-[submodule "content/jsdoc/pixi-vn-live2d"]
-	path = content/jsdoc/pixi-vn-live2d
+[submodule "content/pixi-vn-live2d"]
+	path = content/pixi-vn-live2d
 	url = https://github.com/DRincs-Productions/pixi-vn-live2d.wiki.git
 	branch = master
-[submodule "content/jsdoc/pixi-vn-ai"]
-	path = content/jsdoc/pixi-vn-ai
+[submodule "content/pixi-vn-ai"]
+	path = content/pixi-vn-ai
 	url = https://github.com/DRincs-Productions/pixi-vn-ai.wiki.git
 	branch = master

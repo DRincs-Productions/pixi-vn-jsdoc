@@ -19,13 +19,13 @@ import re
 # Map each jsdoc submodule directory (relative to the repo root) to its
 # fumadocs base URL.
 MODULES = {
-    "content/jsdoc/pixi-vn": "/jsdoc/pixi-vn",
-    "content/jsdoc/pixi-vn-json": "/jsdoc/pixi-vn-json",
-    "content/jsdoc/pixi-vn-ink": "/jsdoc/pixi-vn-ink",
-    "content/jsdoc/nqtr": "/jsdoc/nqtr",
-    "content/jsdoc/pixi-vn-spine": "/jsdoc/pixi-vn-spine",
-    "content/jsdoc/pixi-vn-live2d": "/jsdoc/pixi-vn-live2d",
-    "content/jsdoc/pixi-vn-ai": "/jsdoc/pixi-vn-ai",
+    "content/pixi-vn": "/jsdoc/pixi-vn",
+    "content/pixi-vn-json": "/jsdoc/pixi-vn-json",
+    "content/pixi-vn-ink": "/jsdoc/pixi-vn-ink",
+    "content/nqtr": "/jsdoc/nqtr",
+    "content/pixi-vn-spine": "/jsdoc/pixi-vn-spine",
+    "content/pixi-vn-live2d": "/jsdoc/pixi-vn-live2d",
+    "content/pixi-vn-ai": "/jsdoc/pixi-vn-ai",
 }
 
 LINK_RE = re.compile(r"\[([^\]]*)\]\(([^)]+)\)")
