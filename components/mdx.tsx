@@ -1,0 +1,57 @@
+import DynamicLink from "@/components/dynamiclink";
+import { PixiVnExample } from "@/components/examples";
+import * as AccordionsComponents from "@/components/mdx/accordion";
+import * as FilesComponents from "@/components/mdx/files";
+import { Mermaid } from "@/components/mdx/mermaid";
+import ServerImage from "@/components/mdx/server-image";
+import * as TabsComponents from "fumadocs-ui/components/tabs";
+import defaultMdxComponents from "fumadocs-ui/mdx";
+import * as icons from "lucide-react";
+import type { MDXComponents } from "mdx/types";
+
+export function getMDXComponents(components?: MDXComponents) {
+    return {
+        ...(icons as unknown as MDXComponents),
+        ...defaultMdxComponents,
+        ...TabsComponents,
+        ...AccordionsComponents,
+        ...FilesComponents,
+        img: ServerImage as any,
+        Sandbox: ({
+            entry,
+            template,
+            previewHeight = 400,
+        }: {
+            entry: string;
+            template: string;
+            previewHeight?: number;
+        }) => {
+            return (
+                <iframe
+                    src={`https://codesandbox.io/embed/${template}?${entry}fontsize=12&hidenavigation=1&theme=dark&view=preview&hidedevtools=1`}
+                    style={{
+                        width: "100%",
+                        height: `${previewHeight}px`,
+                        border: 0,
+                        borderRadius: "4px",
+                        overflow: "hidden",
+                    }}
+                    title="drincs/pixi-vn"
+                    allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
+                    sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
+                />
+            );
+        },
+        Comments: () => null,
+        DynamicLink,
+        Mermaid,
+        PixiVnExample,
+        ...components,
+    } satisfies MDXComponents;
+}
+
+export const useMDXComponents = getMDXComponents;
+
+declare global {
+    type MDXProvidedComponents = ReturnType<typeof getMDXComponents>;
+}
