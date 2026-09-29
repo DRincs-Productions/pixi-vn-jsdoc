@@ -4,11 +4,6 @@ import light from "@shikijs/themes/github-light";
 import type { RehypeCodeOptions } from "fumadocs-core/mdx-plugins";
 
 export const appName = "Pixi’VN";
-export const startRoute = "/start";
-export const inkRoute = "/ink";
-export const nqtrRoute = "/nqtr";
-export const faqRoute = "/faq";
-export const renpyRoute = "/renpy";
 export const jsdocPixiVnRoute = "/jsdoc/pixi-vn";
 export const jsdocPixiVnJsonRoute = "/jsdoc/pixi-vn-json";
 export const jsdocPixiVnInkRoute = "/jsdoc/pixi-vn-ink";
@@ -16,7 +11,6 @@ export const jsdocNqtrRoute = "/jsdoc/nqtr";
 export const jsdocPixiVnSpineRoute = "/jsdoc/pixi-vn-spine";
 export const jsdocPixiVnLive2dRoute = "/jsdoc/pixi-vn-live2d";
 export const jsdocPixiVnAiRoute = "/jsdoc/pixi-vn-ai";
-export const docsImageRoute = "/og/docs";
 export const docsContentRoute = "/llms.mdx/docs";
 
 // fill this with your actual GitHub info, for example:
@@ -26,61 +20,9 @@ export const gitConfig = {
     branch: "main",
 };
 
-// repos scanned to build the "contributed on GitHub" avatar list on the homepage
-export const contributorRepos = [
-    "pixi-vn",
-    "pixi-vn-ink",
-    "pixi-vn-json",
-    "nqtr",
-    "nqtr-react-template",
-    "pixi-vn-react-template",
-    "pixi-vn-wiki",
-];
-
 export const discordUrl = "https://discord.gg/E95FZWakzp";
 export const kofiUrl = "https://ko-fi.com/pixivn";
 export const kofiApiUrl = "https://kofi.pixi-vn.com/api/supporters?sort=recent&limit=50&offset=0";
-
-// available languages that will be displayed on UI
-// make sure `locale` is consistent with your i18n config
-export const locales = [
-    {
-        name: "English",
-        locale: "en",
-    },
-    {
-        name: "Русский",
-        locale: "ru",
-    },
-    {
-        name: "Italiano",
-        locale: "it",
-    },
-    {
-        name: "中文",
-        locale: "zh",
-    },
-    {
-        name: "日本語",
-        locale: "ja",
-    },
-    {
-        name: "Español",
-        locale: "es",
-    },
-    {
-        name: "Français",
-        locale: "fr",
-    },
-    {
-        name: "한국어",
-        locale: "ko",
-    },
-    {
-        name: "Deutsch",
-        locale: "de",
-    },
-];
 
 export const fullRehypeCodeOptions: RehypeCodeOptions = {
     // ...rehypeCodeDefaultOptions,
