@@ -21,6 +21,7 @@ MODULES = (
     "content/pixi-vn-spine",
     "content/pixi-vn-live2d",
     "content/pixi-vn-ai",
+    "content/assetpack-plugin-aseprite",
 )
 
 # TypeDoc emits standard triple-backtick fences, so splitting on them keeps

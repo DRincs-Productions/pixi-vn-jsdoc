@@ -52,6 +52,12 @@ export async function sidebar(): Promise<
                 description: "Auto-generated API reference",
                 url: `/pixi-vn-ai`,
             },
+            {
+                title: "@drinc/assetpack-plugin-aseprite",
+                icon: <Image width={16} height={16} src="/pixivn-json.svg" alt="Aseprite plugin" />,
+                description: "Auto-generated API reference",
+                url: `/assetpack-plugin-aseprite`,
+            },
         ],
     };
 }

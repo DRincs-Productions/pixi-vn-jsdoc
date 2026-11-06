@@ -7,6 +7,7 @@ import {
     jsdocPixiVnLive2dSource,
     jsdocPixiVnSource,
     jsdocPixiVnSpineSource,
+    jsdocAssetpackPluginAsepriteSource,
 } from "@/lib/source";
 
 export const revalidate = false;
@@ -20,6 +21,7 @@ export async function GET() {
         ...jsdocPixiVnSpineSource.getPages(),
         ...jsdocPixiVnLive2dSource.getPages(),
         ...jsdocPixiVnAiSource.getPages(),
+        ...jsdocAssetpackPluginAsepriteSource.getPages(),
     ].map(getLLMText);
 
     const scannedJsdoc = await Promise.all(jsdocScan);

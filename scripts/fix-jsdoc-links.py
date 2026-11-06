@@ -26,6 +26,7 @@ MODULES = {
     "content/pixi-vn-spine": "/pixi-vn-spine",
     "content/pixi-vn-live2d": "/pixi-vn-live2d",
     "content/pixi-vn-ai": "/pixi-vn-ai",
+    "content/assetpack-plugin-aseprite": "/assetpack-plugin-aseprite",
 }
 
 LINK_RE = re.compile(r"\[([^\]]*)\]\(([^)]+)\)")

@@ -95,3 +95,13 @@ export const jsdocPixiVnAiDocs = createDocsCollection(
         },
     }),
 );
+
+export const jsdocAssetpackPluginAsepriteDocs = createDocsCollection(
+    "content/assetpack-plugin-aseprite",
+    applyMdxPreset({
+        rehypeCodeOptions: fullRehypeCodeOptions,
+        remarkCodeTabOptions: {
+            parseMdx: true,
+        },
+    }),
+);

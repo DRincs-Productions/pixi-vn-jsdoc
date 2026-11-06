@@ -6,6 +6,7 @@ import {
     jsdocPixiVnJsonDocs,
     jsdocPixiVnLive2dDocs,
     jsdocPixiVnSpineDocs,
+    jsdocAssetpackPluginAsepriteDocs,
 } from "collections/server";
 import { type InferPageType, loader } from "fumadocs-core/source";
 import { icons } from "lucide-react";
@@ -19,6 +20,7 @@ import {
     jsdocPixiVnLive2dRoute,
     jsdocPixiVnRoute,
     jsdocPixiVnSpineRoute,
+    jsdocAssetpackPluginAsepriteRoute,
 } from "./shared";
 
 function createJsdocLoader(
@@ -60,6 +62,10 @@ export const jsdocPixiVnAiSource = createJsdocLoader(
     jsdocPixiVnAiRoute,
     jsdocPixiVnAiDocs.toFumadocsSource(),
 );
+export const jsdocAssetpackPluginAsepriteSource = createJsdocLoader(
+    jsdocAssetpackPluginAsepriteRoute,
+    jsdocAssetpackPluginAsepriteDocs.toFumadocsSource(),
+);
 
 export function getJsdocPageMarkdownUrl(
     page: { slugs: string[] },
@@ -70,7 +76,8 @@ export function getJsdocPageMarkdownUrl(
         | "nqtr"
         | "pixi-vn-spine"
         | "pixi-vn-live2d"
-        | "pixi-vn-ai",
+        | "pixi-vn-ai"
+        | "assetpack-plugin-aseprite",
 ) {
     const segments = [...page.slugs, "content.md"];
     const url = `${docsContentRoute}/${lib}/${segments.join("/")}`;

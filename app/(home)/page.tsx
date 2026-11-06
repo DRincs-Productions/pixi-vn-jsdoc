@@ -36,6 +36,11 @@ const sections = [
         description: "AI-generated content helpers API reference.",
         url: "/pixi-vn-ai",
     },
+    {
+        title: "@drincs/assetpack-plugin-aseprite",
+        description: "AssetPack plugin API for converting Aseprite files into PixiJS spritesheets.",
+        url: "/assetpack-plugin-aseprite",
+    },
 ];
 
 export default function HomePage() {

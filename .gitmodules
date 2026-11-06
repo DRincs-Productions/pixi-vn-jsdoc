@@ -26,3 +26,6 @@
 	path = content/pixi-vn-ai
 	url = https://github.com/DRincs-Productions/pixi-vn-ai.wiki.git
 	branch = master
+[submodule "content/assetpack-plugin-aseprite"]
+	path = content/assetpack-plugin-aseprite
+	url = https://github.com/DRincs-Productions/assetpack-plugin-aseprite.wiki.git

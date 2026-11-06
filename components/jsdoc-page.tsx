@@ -8,6 +8,7 @@ import {
     jsdocPixiVnLive2dSource,
     jsdocPixiVnSource,
     jsdocPixiVnSpineSource,
+    jsdocAssetpackPluginAsepriteSource,
 } from "@/lib/source";
 import {
     DocsBody,
@@ -57,6 +58,11 @@ const libConfig = {
         source: jsdocPixiVnAiSource,
         title: "pixi-vn-ai",
         githubUrl: "https://github.com/DRincs-Productions/pixi-vn-ai",
+    },
+    "assetpack-plugin-aseprite": {
+        source: jsdocAssetpackPluginAsepriteSource,
+        title: "assetpack-plugin-aseprite",
+        githubUrl: "https://github.com/DRincs-Productions/assetpack-plugin-aseprite",
     },
 } as const;
 

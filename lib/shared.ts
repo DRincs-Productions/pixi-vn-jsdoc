@@ -11,6 +11,7 @@ export const jsdocNqtrRoute = "/nqtr";
 export const jsdocPixiVnSpineRoute = "/pixi-vn-spine";
 export const jsdocPixiVnLive2dRoute = "/pixi-vn-live2d";
 export const jsdocPixiVnAiRoute = "/pixi-vn-ai";
+export const jsdocAssetpackPluginAsepriteRoute = "/assetpack-plugin-aseprite";
 export const docsContentRoute = "/llms.mdx/docs";
 
 // fill this with your actual GitHub info, for example:

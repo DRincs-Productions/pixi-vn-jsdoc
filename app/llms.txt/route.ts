@@ -6,6 +6,7 @@ import {
     jsdocPixiVnLive2dSource,
     jsdocPixiVnSource,
     jsdocPixiVnSpineSource,
+    jsdocAssetpackPluginAsepriteSource,
 } from "@/lib/source";
 import { llms } from "fumadocs-core/source";
 
@@ -34,6 +35,9 @@ export async function GET() {
         llms(jsdocPixiVnAiSource)
             .index()
             .then((t) => t.replaceAll("# Docs", "## pixi-vn-ai API")),
+        llms(jsdocAssetpackPluginAsepriteSource)
+            .index()
+            .then((t) => t.replaceAll("# Docs", "## assetpack-plugin-aseprite API")),
     ]);
 
     return new Response(parts.join("\n\n"));
